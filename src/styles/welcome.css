@@ -1,0 +1,39 @@
+.welcome{
+
+padding-top:10px;
+
+}
+
+.welcome p{
+
+letter-spacing:4px;
+
+font-size:.75rem;
+
+color:#b88963;
+
+margin-bottom:10px;
+
+}
+
+.welcome h1{
+
+font-family:var(--heading-font);
+
+font-size:3rem;
+
+font-weight:500;
+
+margin-bottom:12px;
+
+}
+
+.welcome span{
+
+color:#6f6f6f;
+
+line-height:1.8;
+
+display:block;
+
+}

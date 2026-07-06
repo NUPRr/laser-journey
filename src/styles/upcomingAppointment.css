@@ -1,0 +1,75 @@
+.appointment{
+
+margin-top:25px;
+
+}
+
+.appointment h2{
+
+font-family:var(--heading-font);
+
+font-size:1.7rem;
+
+margin-bottom:15px;
+
+}
+
+.appointment-box{
+
+background:white;
+
+padding:22px;
+
+border-radius:24px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+box-shadow:0 12px 30px rgba(0,0,0,.06);
+
+}
+
+.appointment-box h3{
+
+font-size:1.1rem;
+
+margin-bottom:6px;
+
+}
+
+.appointment-box p{
+
+color:#777;
+
+font-size:.9rem;
+
+}
+
+.appointment-box button{
+
+background:#B88963;
+
+color:white;
+
+border:none;
+
+padding:12px 24px;
+
+border-radius:999px;
+
+font-size:.95rem;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.appointment-box button:hover{
+
+background:#a97850;
+
+}

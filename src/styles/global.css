@@ -1,0 +1,66 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    overflow-x:hidden;
+    background:#F7F2EB;
+    font-family:'Poppins', sans-serif;
+    color:#2B2622;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+button{
+    font-family:inherit;
+    cursor:pointer;
+}
+
+img{
+    max-width:100%;
+    display:block;
+}
+
+.container{
+    width:min(1280px,90%);
+    margin:auto;
+}
+
+:root{
+
+    --heading-font:'Cormorant Garamond', serif;
+
+    --body-font:'Poppins', sans-serif;
+
+    --primary:#B88963;
+
+    --cream:#F7F2EB;
+
+    --text:#2B2622;
+
+}
+:root {
+  --bg: #120b0a;
+  --panel: #1c1210;
+  --panel-2: #241714;
+
+  --primary: #6b2d2d;
+  --accent: #c08a5b;
+
+  --text: #f3e9e2;
+  --muted: #b8a39a;
+
+  --border: rgba(192, 138, 91, 0.15);
+}

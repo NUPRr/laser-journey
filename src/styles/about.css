@@ -1,0 +1,211 @@
+.about{
+
+background:#F8F3ED;
+
+min-height:100vh;
+
+}
+
+.aboutHero{
+
+height:90vh;
+
+background:url("/images/hero/hero.jpg") center center/cover;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+}
+
+.overlay{
+
+background:rgba(255,255,255,.65);
+
+backdrop-filter:blur(12px);
+
+padding:60px;
+
+border-radius:30px;
+
+text-align:center;
+
+max-width:700px;
+
+}
+
+.smallTitle{
+
+letter-spacing:3px;
+
+text-transform:uppercase;
+
+font-size:13px;
+
+color:#9D7A5F;
+
+}
+
+.overlay h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:72px;
+
+margin:15px 0;
+
+}
+
+.heroText{
+
+line-height:1.8;
+
+font-size:18px;
+
+margin-bottom:30px;
+
+}
+
+.overlay button{
+
+padding:15px 40px;
+
+border:none;
+
+border-radius:999px;
+
+background:#B88963;
+
+color:white;
+
+cursor:pointer;
+
+font-size:16px;
+
+}
+
+.story{
+
+padding:100px 12%;
+
+text-align:center;
+
+}
+
+.story h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:52px;
+
+margin-bottom:20px;
+
+}
+
+.story p{
+
+max-width:800px;
+
+margin:auto;
+
+line-height:2;
+
+color:#6d645e;
+
+}
+
+.featuresGrid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+padding:0 10% 100px;
+
+}
+
+.featureCard{
+
+background:white;
+
+padding:35px;
+
+border-radius:25px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.05);
+
+transition:.3s;
+
+}
+
+.featureCard:hover{
+
+transform:translateY(-8px);
+
+}
+
+.featureCard h3{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:30px;
+
+margin-bottom:15px;
+
+}
+
+.promise{
+
+padding:120px 20px;
+
+text-align:center;
+
+}
+
+.promise h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:60px;
+
+font-weight:400;
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+@media(max-width:768px){
+
+.overlay{
+
+margin:20px;
+
+padding:35px;
+
+}
+
+.overlay h1{
+
+font-size:48px;
+
+}
+
+.promise h2{
+
+font-size:38px;
+
+}
+
+.story{
+
+padding:70px 30px;
+
+}
+
+}

@@ -1,0 +1,69 @@
+.calendar-section{
+
+background:#fff;
+
+padding:30px;
+
+margin-top:30px;
+
+border-radius:25px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.06);
+
+}
+
+.calendar-section h2{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:38px;
+
+margin-bottom:20px;
+
+text-align:center;
+
+}
+
+.react-calendar{
+
+width:100%;
+
+border:none;
+
+font-family:inherit;
+
+}
+
+.react-calendar__tile{
+
+border-radius:12px;
+
+padding:14px;
+
+}
+
+.appointment-day{
+
+background:#B88963 !important;
+
+color:#fff !important;
+
+border-radius:50%;
+
+}
+
+@media(max-width:768px){
+
+.calendar-section{
+
+padding:20px;
+
+}
+
+.calendar-section h2{
+
+font-size:28px;
+
+}
+
+}

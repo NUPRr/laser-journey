@@ -1,0 +1,143 @@
+.dashboard{
+
+max-width:480px;
+
+margin:auto;
+
+padding:25px 18px 120px;
+
+background:#f7f2eb;
+
+min-height:100vh;
+
+}
+
+section{
+
+margin-bottom:28px;
+
+}
+
+.card{
+
+background:white;
+
+border-radius:24px;
+
+padding:22px;
+
+box-shadow:0 15px 35px rgba(0,0,0,.06);
+
+}
+
+h2{
+
+font-family:var(--heading-font);
+
+font-weight:500;
+
+}
+
+.activity-card{
+
+background:white;
+
+padding:18px;
+
+border-radius:20px;
+
+color:#777;
+
+box-shadow:0 10px 30px rgba(0,0,0,.05);
+
+}
+
+@media(max-width:768px){
+
+.dashboard{
+
+padding:18px 15px 100px;
+
+}
+
+}
+.dashboardHero {
+  background: white;
+  padding: 35px;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.06);
+}
+
+.dashboardHero h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.dashboardHero p {
+  color: #8c7b70;
+  font-size: 17px;
+}
+.dashboardHero{
+
+background:white;
+
+padding:40px;
+
+border-radius:30px;
+
+margin-bottom:35px;
+
+box-shadow:0 15px 40px rgba(0,0,0,.06);
+
+}
+
+.dashboardHero h1{
+
+font-family:"Cormorant Garamond",serif;
+
+font-size:58px;
+
+font-weight:500;
+
+margin-bottom:12px;
+
+color:#2B2B2B;
+
+}
+
+.dashboardHero p{
+
+color:#8C7B70;
+
+font-size:18px;
+
+line-height:1.8;
+
+max-width:500px;
+
+}
+
+@media(max-width:768px){
+
+.dashboardHero{
+
+padding:28px;
+
+}
+
+.dashboardHero h1{
+
+font-size:40px;
+
+}
+
+.dashboardHero p{
+
+font-size:15px;
+
+}
+
+}
